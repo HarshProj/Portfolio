@@ -253,11 +253,40 @@ ul li a{
     height: 30%;
 }
 .rank div{
-    border:1px solid black;
+    /* border:1px solid black; */
     border-radius: 15px 5px;
     cursor: pointer;
-    background-image: url("./images/blog.jpg");
     background-size: cover;
+}
+#skill1{
+    background-image: url("./images/c-.png");
+
+}
+#skill2{
+    background-image: url("./images/letter-c.png");
+
+}
+#skill3{
+    background-image: url("./images/data-structure.png");
+
+}
+#skill4{
+    background-image: url("./images/html.png");
+
+}
+#skill5{
+    background-image: url("./images/css.png");
+
+}
+#skill6{
+    background-image: url("./images/js.png");
+
+}
+#skill7{
+    background-image: url("./images/physics.png");
+    opacity: 1;
+    /* background: black; */
+
 }
 .lang{
     display: block;
