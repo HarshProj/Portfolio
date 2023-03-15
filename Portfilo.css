@@ -307,27 +307,38 @@ ul li a{
      /* background-size: cover; */
      
 }
-.handles{
+/* .footer{
+    display: flex;
+    background-color: #181919;
+    justify-content: center;
+    align-items: center;
+} */
+.footerbody{
+    display: block;
+
+    padding-top: 64px;
+    padding-bottom: 65px;
+    width: 50%;
+}
+.wraped-over{
+    width: 75%;
     display: flex;
     /* flex-direction: column; */
-    height: 25vh;
-     width: 100%;
+    height: 100vh;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
 }
-.so{
-    display: inline;
-    /* padding: 0rem 3rem; */
+.footer-avatar{
+    width: 50vh;
+    height: 50vh;
+}
+.social-link{
+    margin: 10px;
+}
+.git{
+    color: gray;
+}
+.social-link:hover{
     padding: 10px;
-}
-
-.so img{
-    display: inline;
-    /* margin-left: auto;
-    margin-right: auto; */
-    width: 7vh;
-}
-.so img:hover{
-    transition: all 0.5s  ease-in-out;
-    width: 12vh;
+    transition: all 0.4s;
 }
