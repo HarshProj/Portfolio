@@ -345,6 +345,9 @@ width: 100%;
     .navd ul{
         gap: 0;
     }
+    #animation a{
+        display: none;
+    }
     .project{
         /* flex-direction: row; */
         width: 70%;
