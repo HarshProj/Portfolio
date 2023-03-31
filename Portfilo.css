@@ -3,6 +3,7 @@ body{
     margin: 0px;
     scroll-behavior: smooth;
     scrollbar-color: dark;
+    font-family: 'Baloo Da 2', cursive;
 }
 ::-webkit-scrollbar{
     width: 15px;
@@ -174,6 +175,50 @@ ul li a{
     animation: gradient 15s ease infinite;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+/*Projects*/
+.projects{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Baloo Da 2', cursive;
+}
+.project{
+    border:2px solid black;
+    width: 50%;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+    height: 100%;
+
+}
+.project:hover{
+    box-shadow: black 5px 5px 15px;
+    /* width: 25%; */
+    transition: box-shadow 0.5s ease-in;
+}
+.description{
+width: 100%;
+}
+.projimage{
+    width: 50%;
+    height: 50%;
+    cursor: pointer;
+}
+.inage{
+    width: 100%;
+    height: 100%;
+}
+#projects{
+    display: none;
+}
+#projects a{
+    text-decoration: none;
+    color: black;
+}
 @keyframes gradient{
     0%{
         background-position:0% 50%;
@@ -234,7 +279,6 @@ ul li a{
 .aboutdiv{
     display: flex;
     justify-content: center;
-    /* border: 2px solid black; */
     height: 100%;
     flex-wrap: wrap;
 }
@@ -294,8 +338,12 @@ ul li a{
     height:8rem;
 }
 @media screen and (max-width:845px){
-    #About img{
+    #coder{
         display: none;
+    }
+    .project{
+        flex-direction: row;
+        width: 70%;
     }
 }
 /* Social */

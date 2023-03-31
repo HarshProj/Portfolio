@@ -1,4 +1,4 @@
-alert("Not completely done with it :")
+// alert("Not completely done with it :")
 function lessmore() {
     let r1 = document.getElementById("read")
     let r2 = document.getElementById("dot")
@@ -31,6 +31,20 @@ function more() {
         r2.style.padding="20px"
 
     }
+}
+// proj.style.display="none";
+function skill(){
+    let skill=document.getElementById("skills")
+    let proj=document.getElementById("projects")
+    skill.style.display="block";
+    proj.style.display="none";
+}
+function proj(){
+    let skill=document.getElementById("skills")
+    let proj=document.getElementById("projects")
+    skill.style.display="none";
+    proj.style.display="flex";
+
 }
 // let x=getElementById("something-wrong");
 // function some(){

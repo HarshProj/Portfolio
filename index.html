@@ -5,9 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2&display=swap" rel="stylesheet">
     <title>Portfolio Page</title>
     <link href="Portfilo.css" rel="stylesheet">
     <link href="Portfilo.js" rel="javasript">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 </head>
 
 <body>
@@ -36,15 +39,17 @@
     </section>
     <section id="About">
         <div class="bars">
-            <div id="skills" class="bar">Skills </div>
-            <div id="projects" class="bar"> Projects</div>
+            <div id="skill" class="bar"  onclick="skill()">Skills</div>
+            <div id="project" class="bar" onclick="proj()"> Projects</div>
         </div>
         
         <div id="aboutpage">
-        
+       
+            <div id="skills" class="skills">
         <div id="animation">
-            <a ><img src="./images/WIN_20220130_20_25_19_Pro.jpg" id="coder"></a>
-            <span>Hey there!! MY self Harsh Chauhan And I want to share my Skills with you </span>
+
+                <a ><img src="./images/WIN_20220130_20_25_19_Pro.jpg" id="coder"></a>
+                <span>Hey there!! MY self Harsh Chauhan And I want to share my Skills with you </span>
         </div>
         <div class="aboutdiv">
             <div class="rank">
@@ -80,7 +85,65 @@
                 <p>React Js
                 </p>
             </div>
-
+            
+        </div>
+    </div>
+    <div id="projects" class="projects">
+        <div class="project">
+            <a class="projimage"><img src="./images/Text-utils-img.PNG" class="inage"alt="relode image"></a>
+            <div class="description">
+                <h3>Inotebook:</h3>
+                <p>This is a app which keeps your notes safe no one can read it </p>
+                <p>Tools used:React,CSS,Express,nodejs,Mongodb</p>
+                <a href="https://github.com/HarshProj">
+                    <span>Github repo</span>
+                </a>
+            </div>
+        </div>
+        <div class="project">
+            <a class="projimage"><img src="./images/Blogapp-img.PNG" class="inage"alt="relode image"></a>
+            <div class="description">
+                <h3>Tech-Blog:</h3>
+                <p>This is a blog which gives you info about accesories,daily tech news and technology in past </p>
+                <p>Tools used:React,CSS,Express,nodejs,Mongodb</p>
+                <a href="https://github.com/HarshProj/Mini_Projects.git">
+                    <span>Github repo</span>
+                </a>
+            </div>
+        </div>
+        <div class="project">
+            <a class="projimage" href="https://harshproj.github.io/TextUtils/"><img src="./images/Capture.PNG" class="inage"alt="relode image"></a>
+            <div class="description">
+                <h3>Text-Utills:</h3>
+                <p>This is a app which can modify your intered text like:converting to uppercase,loweercase etc</p>
+                <p>Tools used:React,CSS,Express,nodejs,Mongodb</p>
+                <a href="https://github.com/HarshProj/TextUtils.git">
+                    <span>Github repo</span>
+                </a>
+            </div>
+        </div>
+        <div class="project"> 
+            <a class="projimage" href="https://harshproj.github.io/Weather-website/"><img src="./images/Weatherapp-img.png" class="inage"alt="relode image"></a>
+            <div class="description">
+                <h3>Weather-app:</h3>
+                <p>It gives you weather detail of any entered site</p>
+                <p>Tools used:Html,Css,Javascript</p>
+                <a href="https://github.com/HarshProj/Weather-website.git">
+                    <span>Github repo</span>
+                </a>
+            </div>
+        </div>
+        <div class="project">
+            <a class="projimage" href="https://harshproj.github.io/Mini_Projects/"><img src="./images/Mini-proj-img.PNG" class="inage"alt="relode image"></a>
+            <div class="description">
+                <h3>Mini-projects:</h3>
+                <p>It contains collection of my mini projects</p>
+                <p>Tools used:Html,Css,Javascript</p>
+                <a href="https://github.com/HarshProj/Mini_Projects.git">
+                    <span>Github repo</span>
+                </a>
+            </div>
+        </div>
         </div>
         </div>
     </section>
@@ -116,6 +179,5 @@
 <script src="https://kit.fontawesome.com/3682bc7295.js" crossorigin="anonymous"></script>
 <script src="./Portfilo.js">
 </script>
-
 
 </html>
