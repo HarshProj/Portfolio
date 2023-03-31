@@ -200,11 +200,14 @@ ul li a{
     /* width: 25%; */
     transition: box-shadow 0.5s ease-in;
 }
+.projtool{
+    display: block;
+}
 .description{
 width: 100%;
 }
 .projimage{
-    width: 50%;
+    width: 75%;
     height: 50%;
     cursor: pointer;
 }
