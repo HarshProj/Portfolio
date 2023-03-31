@@ -339,10 +339,14 @@ width: 100%;
 }
 @media screen and (max-width:845px){
     #coder{
-        display: none;
+        display: 
+        none;
+    }
+    .navd ul{
+        gap: 0;
     }
     .project{
-        flex-direction: row;
+        /* flex-direction: row; */
         width: 70%;
     }
 }
@@ -377,7 +381,7 @@ width: 100%;
     align-items: center;
 }
 .footer-avatar{
-    width: 50vh;
+    width: 50%;
     height: 50vh;
 }
 .social-link{
